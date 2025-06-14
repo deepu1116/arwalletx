@@ -1,0 +1,163 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ARWallet</title>
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #fff0f0;
+      color: #333;
+    }
+    header {
+      background: #ff4d4d;
+      padding: 1rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: white;
+    }
+    header .logo {
+      font-weight: bold;
+      font-size: 1.4rem;
+    }
+    .top-nav a {
+      margin-left: 1rem;
+      color: white;
+      text-decoration: none;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+    main {
+      padding: 1rem;
+      max-width: 480px;
+      margin: auto;
+    }
+    .center-buttons {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 2rem;
+    }
+    .circle-button {
+      background: #ff4d4d;
+      color: white;
+      border: none;
+      border-radius: 50%;
+      width: 120px;
+      height: 120px;
+      font-size: 1.2rem;
+      margin: 1rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      cursor: pointer;
+    }
+    .graphic-placeholder {
+      width: 100%;
+      height: 100px;
+      background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Simple_red_circle.svg/2048px-Simple_red_circle.svg.png') no-repeat center;
+      background-size: contain;
+      margin-bottom: 1rem;
+    }
+    .hidden {
+      display: none;
+    }
+    .back-btn {
+      background: #ccc;
+      border: none;
+      padding: 0.5rem 1rem;
+      margin: 1rem;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+    .page {
+      display: none;
+    }
+    .page.active {
+      display: block;
+    }
+    .balance-display {
+      font-size: 1.8rem;
+      font-weight: 600;
+      margin-top: 1rem;
+      text-align: center;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    th, td {
+      padding: 0.5rem;
+      text-align: left;
+      border-bottom: 1px solid #ccc;
+    }
+    .withdraw-options {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+    .withdraw-btn {
+      background: #fff;
+      border: 2px solid #ff4d4d;
+      padding: 0.5rem 1rem;
+      border-radius: 10px;
+      flex: 1 1 calc(50% - 1rem);
+      text-align: center;
+      position: relative;
+      cursor: pointer;
+    }
+    .withdraw-btn:hover {
+      background: #ffe5e5;
+    }
+    .info-btn {
+      font-size: 0.9rem;
+      color: #999;
+      position: absolute;
+      top: 4px;
+      right: 8px;
+      cursor: pointer;
+    }
+    .login-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      padding: 1rem;
+      background: #fff5f5;
+    }
+    .login-container input {
+      padding: 0.75rem;
+      margin: 0.5rem 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      width: 80%;
+      max-width: 300px;
+      font-size: 1rem;
+    }
+    .login-container button {
+      background: #ff4d4d;
+      color: white;
+      border: none;
+      padding: 0.75rem 1.5rem;
+      border-radius: 6px;
+      font-size: 1rem;
+      cursor: pointer;
+      width: 80%;
+      max-width: 300px;
+    }
+    .login-error {
+      color: red;
+      margin-top: 1rem;
+      font-size: 0.95rem;
+    }
+  </style>
+</head>
+<body>
+<!-- (Content omitted for brevity, already shown above) -->
+</body>
+</html>
